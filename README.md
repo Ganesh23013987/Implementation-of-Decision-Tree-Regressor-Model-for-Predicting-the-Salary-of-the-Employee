@@ -31,7 +31,7 @@ import pandas as pd
 data=pd.read_csv("/content/Salary.csv")
 data.head()
 ```
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/c98b586a-147f-46a3-bc2c-d38502ec476e">
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/c98b586a-147f-46a3-bc2c-d38502ec476e">
 
 
 ```
@@ -46,7 +46,7 @@ le=LabelEncoder()
 data["Position"]=le.fit_transform(data["Position"])
 data.head()
 ```
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/6911895c-1cea-447f-add8-ed1847afa2cc">
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/6911895c-1cea-447f-add8-ed1847afa2cc">
 
 ```
 x=data[["Position","Level"]]
@@ -59,7 +59,7 @@ dt.fit(xtrain,ytrain)
 y_pred=dt.predict(xtest)
 print(y_pred)
 ```
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/570160df-d41b-453f-af28-6c59c2ff25be">
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/570160df-d41b-453f-af28-6c59c2ff25be">
 
 ```
 from sklearn.metrics import mean_squared_error
@@ -77,7 +77,7 @@ print(r2)
 ```
 dt.predict([[5,6]])
 ```
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/7bf9ea1f-411b-403c-bdf2-ce990a3cfbb4">
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/7bf9ea1f-411b-403c-bdf2-ce990a3cfbb4">
 
 
 ## Result:
