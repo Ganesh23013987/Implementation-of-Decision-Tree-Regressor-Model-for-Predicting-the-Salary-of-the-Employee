@@ -77,7 +77,7 @@ print(r2)
 ```
 dt.predict([[5,6]])
 ```
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/7bf9ea1f-411b-403c-bdf2-ce990a3cfbb4">
+<img width="1350" alt="image" src="https://github.com/user-attachments/assets/7bf9ea1f-411b-403c-bdf2-ce990a3cfbb4">
 
 
 ## Result:
